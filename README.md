@@ -13,19 +13,19 @@ For this example, I will build a text dataset from a digitized version of Mary S
 # Code Implementation
 The code is organized into different sections:
 
-## Vocabulary: Defines a class to process text and extract vocabulary for mapping tokens to indices.
+ Vocabulary: Defines a class to process text and extract vocabulary for mapping tokens to indices.
 
-## CBOWVectorizer: Implements the vectorizer that maps context words to vectors.
+ CBOWVectorizer: Implements the vectorizer that maps context words to vectors.
 
-## CBOWDataset: Constructs a dataset class for the CBOW task, which includes methods for loading and processing data.
+ CBOWDataset: Constructs a dataset class for the CBOW task, which includes methods for loading and processing data.
 
-## CBOWClassifier: Defines the CBOW model for word embeddings and classification.
+ CBOWClassifier: Defines the CBOW model for word embeddings and classification.
 
-## Training Routine: Contains the training loop to train the CBOW model.
+ Training Routine: Contains the training loop to train the CBOW model.
 
-## Testing the Model: Evaluates the trained model on the test dataset.
+ Testing the Model: Evaluates the trained model on the test dataset.
 
-## Trained Embeddings: Demonstrates how to use the learned word embeddings by finding similar words.
+ Trained Embeddings: Demonstrates how to use the learned word embeddings by finding similar words.
 
 # Training the CBOW Model
 The training process is divided into iterations over the training dataset, where batches of data are processed in each iteration. The model's loss is minimized, and the accuracy is computed. The training loop runs for a specified number of epochs.
